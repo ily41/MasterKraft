@@ -13,18 +13,27 @@
   --font-barlow: "Barlow Condensed", sans-serif;
   --font-manrope: "Manrope", sans-serif;
   --font-teko: "Teko", sans-serif;
+  --main-bg: #111111;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @layer components {
   nav {
-    @apply fixed z-50 w-full px-10 py-6;
+    @apply absolute z-50 w-full px-10 py-6;
 
     a {
-      @apply flex items-center gap-3 font-bold tracking-widest font-barlow
+      @apply flex items-center gap-3 font-bold tracking-widest font-barlow text-[#e9e7e1] md:text-2xl
     }
 
     p {
-      @apply text-2xl md:text-3xl text-4xl sm:text-3xl font-barlow tracking-wider
+      @apply text-2xl md:text-3xl text-4xl sm:text-3xl font-barlow tracking-wider text-[#e9e7e1]
     }
 
     li {
@@ -53,4 +62,84 @@
     }
 
   }
+}
+
+.side {
+  @apply hidden md:flex fixed left-0 top-0 h-screen w-[4vw] 
+         backdrop-blur-md bg-black/5 
+         items-center justify-center 
+         z-40;
+}
+
+.side p {
+  @apply rotate-270 text-sm tracking-widest whitespace-nowrap text-white md:text-xl uppercase;
+}
+
+#hero {
+  @apply bg-[var(--main-bg)] min-h-screen ;
+}
+
+
+.hero-video {
+  @apply w-full object-cover rounded-xl h-screen [mask-image:radial-gradient(circle,white_10%,transparent_100%)];
+}
+
+.content {
+  @apply fixed top-30 right-10 md:right-20
+}
+
+.hero-head {
+  @apply right-[5vw] font-barlow tracking-widest font-semibold text-[7vw] md:text-[6.6vw];
+  
+  /* The Gradient: Gray at the bottom, White at the top */
+  background: linear-gradient(to top, #888888 0%, #ffffff 100%);
+  
+  /* This makes the gradient apply to the text only */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* This makes the actual text color transparent so the gradient shows through */
+  color: transparent;
+
+  /* Since text-shadow was failing, we use drop-shadow filter here for depth */
+  filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.5));
+}
+
+.hero-sub {
+  @apply text-left font-barlow tracking-widest font-semibold text-[3vw] md:text-[1.5vw];
+  background: linear-gradient(to top, #999999 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.5));
+}
+
+
+/* Container for bottom-left placement */
+.content2 {
+  @apply absolute bottom-[8%] left-[5vw] z-10 flex flex-col gap-1;
+}
+
+.hero2-head {
+  @apply font-barlow font-bold uppercase tracking-wider text-2xl md:text-[3vw];
+  
+  /* Modern Industrial Orange Gradient */
+  background: linear-gradient(to top, #f97316 0%, #fb923c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  /* Slightly stronger shadow for the color pop */
+}
+
+.hero2-sub {
+  /* Layout & Typography */
+  @apply font-barlow font-medium tracking-wide text-sm md:text-[0.9vw] max-w-[250px] md:max-w-none;
+  
+  /* Soft gray color to keep the hierarchy clear */
+  color: rgba(255, 255, 255, 0.7);
+  
+  /* Technical detail: slight letter spacing for premium look */
+  letter-spacing: 0.05em;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
 }

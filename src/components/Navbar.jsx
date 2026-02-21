@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav>
         <div>
             <a href="#home">
-                <img src="/images/logo.png" className='w-8 sm:w-10 md:w-12' alt="" />
+                {/* <img src="/images/logo.png" className='w-8 sm:w-10 md:w-12' alt="" /> */}
                 <p>MASTER KRAFT</p>
             </a>
 
