@@ -1,19 +1,10 @@
-const navLinks = [{
-		id: "home",
-		title: "Ana Səhifə",
-	},
-    {
-		id: "products",
-		title: "Məhsullar",
-	},
-	{
-		id: "about",
-		title: "Haqqımızda",
-	},
-	{
-		id: "terefdaslar",
-		title: "Tərəfdaşlar",
-	},
+const navLinks = [
+	{ id: "hero", title: "Ana Səhifə" },
+	{ id: "about", title: "Haqqımızda" },
+	{ id: "products", title: "Məhsullar" },
+	{ id: "partners", title: "Tərəfdaşlar" },
+	{ id: "features", title: "Xüsusiyyətlər" },
+	{ id: "contact", title: "Əlaqə" },
 ];
 
 export {

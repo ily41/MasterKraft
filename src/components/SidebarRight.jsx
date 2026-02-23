@@ -7,6 +7,8 @@ const sections = [
   { id: "products", label: "Products" },
   { id: "about", label: "About" },
   { id: "partners", label: "Partners" },
+  { id: "features", label: "Features" },
+  { id: "contact", label: "Contact" },
 ];
 const ActiveRing = () => {
   const ringRef = useRef(null);
