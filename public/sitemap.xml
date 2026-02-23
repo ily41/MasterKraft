@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- 
+      Master Kraft - Premium sement əsaslı məhsullar və Tikinti Kimyəviləri
+      Main Landing Page with detailed assets
+    -->
+    <url>
+        <loc>https://masterkraft.az/</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+
+        <!-- Product Images -->
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product1-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 1</image:title>
+            <image:caption>Premium tikinti materialı - Master Kraft</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product2-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 2</image:title>
+            <image:caption>Yüksək keyfiyyətli kafel yapışdırıcısı</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product3-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 3</image:title>
+            <image:caption>Su izolyasiya məhsulları</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product4-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 4</image:title>
+            <image:caption>Sement əsaslı premium yapışdırıcı</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product5-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 5</image:title>
+            <image:caption>İnşaat kimyəviləri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://masterkraft.az/products/product6-Photoroom.png</image:loc>
+            <image:title>Master Kraft Məhsul 6</image:title>
+            <image:caption>Master Kraft - Profesionalların seçimi</image:caption>
+        </image:image>
+
+        <!-- Brand Visuals -->
+        <image:image>
+            <image:loc>https://masterkraft.az/images/logo.png</image:loc>
+            <image:title>Master Kraft Logo</image:title>
+        </image:image>
+
+        <!-- Hero Video -->
+        <video:video>
+            <video:thumbnail_loc>https://masterkraft.az/og-image.jpg</video:thumbnail_loc>
+            <video:title>Master Kraft - Təməldən Zirvəyə</video:title>
+            <video:description>Master Kraft premium tikinti materialları və innovativ həllər.</video:description>
+            <video:content_loc>https://masterkraft.az/videos/output.mp4</video:content_loc>
+            <video:publication_date>2024-01-01T00:00:00+04:00</video:publication_date>
+        </video:video>
+    </url>
+</urlset>

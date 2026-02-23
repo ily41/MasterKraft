@@ -1,0 +1,27 @@
+# Master Kraft - robots.txt
+# https://masterkraft.az
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive or unnecessary paths (if they existed)
+# Disallow: /admin/
+# Disallow: /api/
+# Disallow: /private/
+
+# Allow all visuals and assets
+Allow: /images/
+Allow: /products/
+Allow: /videos/
+
+# Crawl Delay for some bots to save server resources
+User-agent: Yandex
+Crawl-delay: 2
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://masterkraft.az/sitemap.xml
+
+# End of robots.txt
