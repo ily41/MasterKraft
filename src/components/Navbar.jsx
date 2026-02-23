@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-0 left-0 w-full z-[100] transition-colors duration-300">
-            <div className="mx-auto flex justify-between items-center py-6 px-10 md:px-20">
+            <div className="mx-auto flex justify-between items-center py-2 md:py-6 px-10 md:px-20">
                 <a href="#hero" className="relative z-[60]">
                     <p className="!text-2xl md:text-2xl font-barlow font-bold tracking-tighter">
                         MASTER <span className="text-orange-500">KRAFT</span>
@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Overlay - Moved outside container for full-screen fixed positioning */}
-            <div className={`fixed top-0 left-0 w-screen h-screen bg-black/95 backdrop-blur-2xl z-[105] transition-all duration-700 flex flex-col items-center justify-center gap-10 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'}`}>
+            <div className={`fixed top-0 left-0 w-screen min-h-screen bg-black/95 backdrop-blur-2xl z-[105] transition-all duration-700 flex flex-col items-center justify-center gap-10 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'}`}>
                 {navLinks.map((item) => (
                     <a
                         key={item.id}

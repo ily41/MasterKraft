@@ -57,7 +57,7 @@ const SidebarRight = ({ activeSection }) => {
   return (
     <div
       ref={sidebarRef}
-      className="fixed right-0 top-0 h-screen w-[60px] 
+      className="fixed right-0 top-0 min-h-screen w-[60px] 
                  hidden lg:flex flex-col items-center 
                  justify-center gap-6 z-50 text-white 
                  border-l border-white/10 bg-black/20 

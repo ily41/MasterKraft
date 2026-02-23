@@ -8,23 +8,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 const features = [
     {
-        title: 'Yüksək Adheziya',
-        desc: 'Bütün növ səthlərlə mükəmməl yapışma və davamlılıq.',
+        title: 'YÜKSƏK YAPIŞMA VƏ ELASTİKLİK',
+        desc: 'Bütün növ səthlərdə maksimal yapışma gücü təmin edir. Elastik strukturu sayəsində çatlamaya qarşı dayanıqlıdır və uzunömürlü nəticə verir..',
         icon: '✦'
     },
     {
-        title: 'Suya Davamlılıq',
-        desc: 'Nəm və suyun təsirinə qarşı tam qorunma təmin edir.',
+        title: 'UZUN AÇIQ GÖZLƏMƏ MÜDDƏTİ',
+        desc: 'Tətbiqdən sonra optimal işləmə vaxtını saxlayır. Plitələrin rahat yerləşdirilməsi və dəqiq düzəliş imkanı yaradır.',
         icon: '✦'
     },
     {
-        title: 'Donmaya Davamlı',
-        desc: 'Ekstremal temperaturlarda belə öz keyfiyyətini itirmir.',
+        title: 'C2TE PEŞƏKAR STANDARTI',
+        desc: 'C2TE sinfinə uyğun olaraq yüksək performans göstərir. Həm fasad, həm də daxili məkanlarda etibarlı və stabil nəticə təmin edir.',
         icon: '✦'
     },
     {
-        title: 'Ekoloji Təmiz',
-        desc: 'Ətraf mühit və insan sağlamlığı üçün tam təhlükəsizdir.',
+        title: 'İRİ ÖLÇÜLÜ KERAMOQRANİT ÜÇÜN',
+        desc: 'Böyük formatlı və ağır keramoqranit plitələrin möhkəm və təhlükəsiz yapışdırılması üçün xüsusi hazırlanmışdır.',
         icon: '✦'
     }
 ];
@@ -113,7 +113,7 @@ const Features = () => {
                                 {stat.value}
                             </h4>
                             <p className="text-orange-500 text-[10px] uppercase tracking-[0.3em] font-bold mb-1">{stat.label}</p>
-                            <p className="text-white/20 text-[10px] uppercase tracking-widest">{stat.sub}</p>
+                            <p className="text-white/20! text-[10px] uppercase tracking-widest">{stat.sub}</p>
                         </div>
                     ))}
                 </div>

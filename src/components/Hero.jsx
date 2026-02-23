@@ -125,7 +125,7 @@ const Hero = () => {
   }, [isDesktop]); // Re-run if screen size crosses breakpoint
 
   return (
-    <section id="hero" className="relative overflow-hidden w-full h-screen">
+    <section id="hero" className="relative overflow-hidden w-full min-h-screen">
       <video
         ref={videoRef}
         src="/videos/output.mp4"
@@ -138,7 +138,7 @@ const Hero = () => {
       {/* ORIGINAL CONTENT */}
       <div className="content will-fade z-30">
         <h1 className="hero-head ">TƏMƏLDƏN<br />ZIRVƏYƏ</h1>
-        <h2 className="hero-sub">Dayanıqlı gələcək üçün premium sinif kafel yapışdırıcıları</h2>
+        <h2 className="hero-sub">Dayanıqlı gələcək üçün premium sinif sement əsaslı məhsullar</h2>
       </div>
 
       <div className="content2 will-fade z-30">

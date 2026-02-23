@@ -54,7 +54,7 @@ body {
 }
 
 .side {
-  @apply hidden md:flex fixed left-0 top-0 h-screen w-[4vw] z-40;
+  @apply hidden md:flex fixed left-0 top-0 min-h-screen w-[4vw] z-40;
   @apply items-center justify-center;
 
   /* 1. The "Lens": A tiny bit of color (5% white or black) */
@@ -79,7 +79,7 @@ body {
 
 
 .hero-video {
-  @apply w-full object-cover rounded-xl h-screen;
+  @apply w-full object-cover rounded-xl min-h-screen;
 
   mask-image: radial-gradient(circle, black 10%, transparent 100%);
   -webkit-mask-image: radial-gradient(circle, black 10%, transparent 100%);

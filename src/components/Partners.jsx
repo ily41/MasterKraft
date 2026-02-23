@@ -7,6 +7,8 @@ const partners = [
     { name: 'Mayak rezidens', logo: '/companies/mayak.png' },
     { name: 'Everest qrup', logo: '/companies/Everest.png' },
     { name: 'Lake City', logo: '/companies/lake_city.svg' },
+    { name: 'Yusifoğlu inşaat', logo: '/companies/yusifoglu.jpg' },
+    { name: 'Tahiroğlu inşaat', logo: '/companies/tahiroglu.png' },
 ];
 
 const Partners = () => {
@@ -58,7 +60,7 @@ const Partners = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8">
                     {partners.map((partner, idx) => (
                         <div key={idx} className="partner-card group">
                             <div className="relative aspect-square bg-[#1a1a1a]/50 border border-white/5 rounded-3xl flex flex-col items-center justify-center p-8 transition-all duration-700 hover:border-orange-500/30 hover:bg-[#1a1a1a] overflow-hidden">

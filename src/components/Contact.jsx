@@ -56,7 +56,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-white/30 text-[10px] uppercase tracking-widest font-bold mb-1">Telefon</p>
-                                    <p className="text-white font-barlow text-2xl font-bold tracking-wider">+994 (50) 000 00 00</p>
+                                    <p className="text-white font-barlow text-2xl font-bold tracking-wider">+994 (50) 255 43 55</p>
                                 </div>
                             </div>
 
@@ -66,19 +66,10 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-white/30 text-[10px] uppercase tracking-widest font-bold mb-1">E-poçt</p>
-                                    <p className="text-white font-barlow text-2xl font-bold tracking-wider underline decoration-orange-500/30 underline-offset-8 group-hover:decoration-orange-500 transition-all">info@masterkraft.az</p>
+                                    <p className="text-white font-barlow text-xl md:text-2xl font-bold tracking-wider underline decoration-orange-500/30 underline-offset-8 group-hover:decoration-orange-500 transition-all">masterkraft12@info.gmail.com</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-center gap-6 group">
-                                <div className="w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-orange-500/50 transition-all duration-500">
-                                    <span className="text-orange-500 text-xl">📍</span>
-                                </div>
-                                <div>
-                                    <p className="text-white/30 text-[10px] uppercase tracking-widest font-bold mb-1">Ünvan</p>
-                                    <p className="text-white font-barlow text-2xl font-bold tracking-wider">Bakı, Sənaye zonası 5</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
